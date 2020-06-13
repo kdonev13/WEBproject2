@@ -1,0 +1,29 @@
+{
+  "name": "web-course",
+  "version": "1.0.0",
+  "description": "a site project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdonev13/WEBproject2.git"
+  },
+  "keywords": [
+    "PuhArt"
+  ],
+  "author": "KDonev the 2nd\u001b[D\u001b[D\u001b[_\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[_\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kdonev13/WEBproject2/issues"
+  },
+  "homepage": "https://github.com/kdonev13/WEBproject2#readme"
+}
