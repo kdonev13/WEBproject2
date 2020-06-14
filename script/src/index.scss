@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.space{
+    background-image: url("../pictures/sp_back.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.space img{
+    width: 25%;
+    height: 25%;
+}
