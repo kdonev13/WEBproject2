@@ -6,13 +6,69 @@
   box-sizing: border-box; 
 }
 
+body, html{
+  height: 100%;
+}
+
 .space{
     background-image: url("../pictures/sp_back.jpg");
     background-size: cover;
+    background-color: #000;
     text-align: center;
 }
 
 .space img{
     width: 25%;
     height: 25%;
+}
+
+.main{
+  background-image: url("../pictures/cool_background.jpeg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  text-align: center; 
+  height: 100%;
+}
+
+
+#jediLogo, #sithLogo {
+top: 320px; position:relative;
+  
+}
+
+span {
+animation-name:vidimost;
+animation-duration: 6s;
+}
+
+
+#jediLogo {
+  margin-right:450px;
+  box-shadow: 0 5px 20px 30px rgba(204, 255, 204, 0.4);
+  transition: 0.3s transform;
+}
+
+#sithLogo{
+  box-shadow: 0 5px 20px 30px rgba(204, 51, 0, 0.4); 
+  transition: 0.3s transform;
+}
+  
+
+@keyframes vidimost {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+  
+#jediLogo:hover{
+  
+transform: skew(-20deg, 10deg);
+box-shadow: 0 5px 20px 30px rgba(204, 255, 204, 0.7);
+}
+
+#sithLogo:hover{
+  
+transform: skew(-20deg, 10deg);
+box-shadow: 0 5px 20px 30px rgba(204, 51, 0, 0.7);
 }

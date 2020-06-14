@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body{
+    background-image: url("../pictures/kenobi_b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title{
+    text-align: center;
+    font-size: 27px;
+    color: #4C929C;
+}
+
+.bigtext{
+    text-align: center;
+    font-size: 17px;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    font-weight: bold;
+    color: #000000;
+}

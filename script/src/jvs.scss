@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body{
+    background-image: url("../pictures/sith_b2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title{
+    text-align: center;
+    font-size: 27px;
+    color: #b93479;
+}
+
+.normal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    margin: 5px;
+    padding: 3px;
+    background-color: #333;
+    font-weight: bold;
+    color: white;
+}
+
+.normal iframe{
+    width: 700px;
+    height: 350px;
+}
+
+.reversed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    margin: 5px;
+    padding: 3px;
+    background-color: #333;
+    font-weight: bold;
+    color: white;
+}
+
+.reversed iframe{
+    width: 700px;
+    height: 350px;
+}

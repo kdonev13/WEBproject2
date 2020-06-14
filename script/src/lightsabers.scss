@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
 body{
     background-image: url("../pictures/main_background.jpg");
     background-size: cover;
